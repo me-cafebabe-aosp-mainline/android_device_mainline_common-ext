@@ -1,0 +1,2 @@
+# Executables
+/(vendor|system/vendor)/bin/hw/android\.hardware\.audio\.effect\.service-aidl\.legacy_ext		u:object_r:hal_audio_default_exec:s0
