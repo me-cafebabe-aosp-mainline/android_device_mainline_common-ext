@@ -10,3 +10,10 @@
 |-------|-------------|
 | true | Default value, install the systemd camera hwdb (`70-cameras.hwdb`) for `TARGET_CAMERA_PROVIDER_HAL=mainline` |
 | false | Do not install it; the target may provide its own in `/vendor/etc/camera/hwdb.d/` |
+
+## Display
+
+### TARGET_ENABLE_BOOTSPLASH
+| Value | Directory | Description |
+|-------|-----------|-------------|
+| true | bootsplash | Install the optional early DRM/fbdev bootsplash in system_ext. Do not enable together with fbkeyboard. The device supplies `/product/etc/bootsplash.bmp` if a static fallback is wanted. |

@@ -1,0 +1,2 @@
+# Executables
+/(system_ext|system/system_ext)/bin/bootsplash		u:object_r:bootsplash_exec:s0
