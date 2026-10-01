@@ -9,6 +9,9 @@
 
 ##### Components #####
 
+# Camera
+TARGET_CAMERA_PROVIDER_HAL ?= mainline
+
 ##### Replacements #####
 
 ifeq ($(MAINLINE_COMMON_PREFER_EXT_MODULES),true)
